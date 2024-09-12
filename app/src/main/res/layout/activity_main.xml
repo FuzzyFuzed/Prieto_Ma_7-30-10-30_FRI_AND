@@ -4,22 +4,23 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
-    <EditText
-        android:id="@+id/addItemEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/edit_text_background"
-        android:hint="Double Click to add an item"
-        android:padding="12dp"
-        android:textColorHint="#888"
-        android:textSize="16sp"/>
-
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/addItemEditText"/>
+        android:layout_above="@+id/addItemEditText"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/addItemEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Double Click to add an item"
+        android:padding="12dp"
+        android:textColorHint="#888"
+        android:textSize="16sp" />
 
 </RelativeLayout>
