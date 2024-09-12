@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ListViewELDROIDPRIETO</string>
+    <string name="item_name_placeholder">Item Name</string>
+    <string name="item_image_description">Placeholder Image</string>
+    <string name="image_placeholder">Placeholder image</string>
+    <string name="image_desc">Image placeholder</string>
+    <string name="item_image_desc">Item image</string>
+    <string name="edit_button_desc">Edit button</string>
+    <string name="delete_button_desc">Delete button</string>
+</resources>
