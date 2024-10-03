@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <corners android:radius="16dp" />  <!-- Adjust the corner radius for rounded effect -->
+    <solid android:color="#2B2B2B" />   <!-- Darker shade, but not too dark -->
+
+    <!-- Optional: Add a subtle stroke for more depth -->
+    <stroke
+        android:width="2dp"
+        android:color="#4D4D4D" />  <!-- Slightly lighter stroke color -->
+</shape>

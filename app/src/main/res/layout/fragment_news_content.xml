@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:padding="16dp"
+    android:background="@drawable/rounded_background"
+    android:layout_marginBottom="12dp"
+    android:elevation="8dp"
+    android:clipToPadding="false">
+
+    <!-- Image at the top with circular shape -->
+<ImageView
+android:id="@+id/news_content_image"
+android:layout_width="match_parent"
+android:layout_height="200dp"
+    android:scaleType="centerCrop"
+    android:adjustViewBounds="true"
+    android:contentDescription="News image"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/circle_background"
+    android:padding="8dp"
+    />
+
+
+<TextView
+android:id="@+id/news_content_text"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="News Content"
+android:textSize="20sp"
+    android:textColor="#FFFFFF"
+    android:fontFamily="sans-serif-medium"
+    android:padding="16dp"
+    android:background="@android:color/transparent"
+    android:justificationMode="inter_word"
+    />
+    </LinearLayout>
